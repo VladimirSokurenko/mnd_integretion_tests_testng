@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="mnd_integration_tests(failed)">
+    <classes>
+      <class name="integrationTests.ContentCreatorTests">
+        <methods>
+          <include name="login_as_content_creator"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- integrationTests.ContentCreatorTests -->
+    </classes>
+  </test> <!-- mnd_integration_tests(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

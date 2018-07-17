@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="20170" started-at="2018-07-17T22:52:17Z" finished-at="2018-07-17T22:52:37Z">
+    <groups>
+    </groups>
+    <test name="mnd_integration_tests" duration-ms="20170" started-at="2018-07-17T22:52:17Z" finished-at="2018-07-17T22:52:37Z">
+      <class name="integrationTests.ContentCreatorTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="setUp" is-config="true" duration-ms="3427" started-at="2018-07-17T22:52:17Z" finished-at="2018-07-17T22:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login_as_content_creator()[pri:1, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="login_as_content_creator" duration-ms="16661" started-at="2018-07-17T22:52:20Z" description="This test will verify login feature for Content Creator" finished-at="2018-07-17T22:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_as_content_creator -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="quit" is-config="true" duration-ms="69" started-at="2018-07-17T22:52:37Z" finished-at="2018-07-17T22:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- integrationTests.ContentCreatorTests -->
+    </test> <!-- mnd_integration_tests -->
+  </suite> <!-- Default Suite -->
+</testng-results>

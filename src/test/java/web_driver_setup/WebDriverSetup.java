@@ -2,6 +2,7 @@ package web_driver_setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 
@@ -18,6 +19,7 @@ public class WebDriverSetup {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     public void go_to_the_site(String instance){

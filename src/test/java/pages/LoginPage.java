@@ -36,5 +36,11 @@ public class LoginPage {
 
     public void click_login_btn(){ btn_login.click(); }
 
+    public void login_as(String username, String password){
+        field_username.sendKeys(username);
+        field_password.sendKeys(password);
+        btn_login.click();
+    }
+
 
 }
