@@ -5,8 +5,8 @@
     <classes>
       <class name="integrationTests.ContentCreatorTests">
         <methods>
-          <include name="login_as_content_creator"/>
           <include name="quit"/>
+          <include name="view_as_visitor_test"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- integrationTests.ContentCreatorTests -->

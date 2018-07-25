@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,22 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="integrationTests.ContentCreatorTests" hash-for-method="login_as_content_creator">login_as_content_creator</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="integrationTests.ContentCreatorTests" hash-for-method="create_portfolio_item">create_portfolio_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="integrationTests.ContentCreatorTests" hash-for-method="edit_portfolio_test">edit_portfolio_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="integrationTests.ContentCreatorTests" hash-for-method="login_as_content_creator_test">login_as_content_creator_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="integrationTests.ContentCreatorTests" hash-for-method="view_as_visitor_test">view_as_visitor_test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
@@ -125,11 +140,38 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_as_content_creator">
-                  </a> <!-- login_as_content_creator -->
-                  <span class="method-name">login_as_content_creator</span>
+                  <a name="create_portfolio_item">
+                  </a> <!-- create_portfolio_item -->
+                  <span class="method-name">create_portfolio_item</span>
+                  <em>
+(verify create portfolio item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edit_portfolio_test">
+                  </a> <!-- edit_portfolio_test -->
+                  <span class="method-name">edit_portfolio_test</span>
+                  <em>
+(verify edit portfolio)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_as_content_creator_test">
+                  </a> <!-- login_as_content_creator_test -->
+                  <span class="method-name">login_as_content_creator_test</span>
                   <em>
 (This test will verify login feature for Content Creator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="view_as_visitor_test">
+                  </a> <!-- view_as_visitor_test -->
+                  <span class="method-name">view_as_visitor_test</span>
+                  <em>
+(verify view as visitor feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +228,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_as_content_creator')
+data.setCell(0, 1, 'edit_portfolio_test')
 data.setCell(0, 2, 'integrationTests.ContentCreatorTests')
-data.setCell(0, 3, 16661);
+data.setCell(0, 3, 15130);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'create_portfolio_item')
+data.setCell(1, 2, 'integrationTests.ContentCreatorTests')
+data.setCell(1, 3, 11925);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login_as_content_creator_test')
+data.setCell(2, 2, 'integrationTests.ContentCreatorTests')
+data.setCell(2, 3, 10630);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'view_as_visitor_test')
+data.setCell(3, 2, 'integrationTests.ContentCreatorTests')
+data.setCell(3, 3, 9174);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -227,13 +281,25 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">login_as_content_creator</span>
-                <span class="method-start">3437 ms</span>
+                <span class="method-name">login_as_content_creator_test</span>
+                <span class="method-start">2619 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="test-method">
+                <span class="method-name">view_as_visitor_test</span>
+                <span class="method-start">13256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edit_portfolio_test</span>
+                <span class="method-start">22430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_portfolio_item</span>
+                <span class="method-start">37561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
                 <span class="method-name">quit</span>
-                <span class="method-start">20099 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">49486 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

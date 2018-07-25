@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.sql.SQLOutput;
@@ -32,7 +33,14 @@ public class WebDriverSetup {
         }
     }
 
-    @AfterMethod
+    public String get_random_text(String text){
+        int random = (int )(Math.random() * 50 + 1);
+        String random_text = text + random;
+        return random_text;
+    }
+
+
+    @AfterTest
     public void quit(){
         driver.quit();
     }
