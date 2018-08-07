@@ -275,7 +275,33 @@ public class ContentCreatorTests extends WebDriverSetup {
     }
 
     @Test(priority = 11, description = "checks sub-navigation menu interactions")
-    public void subnavigation_interactions(){
+    public void sub_navigation_interactions(){
+        LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+        ContentMarketMenuPage contentMarketMenuPage = PageFactory.initElements(driver, ContentMarketMenuPage.class);
+        PortfolioPage portfolioPage = PageFactory.initElements(driver, PortfolioPage.class);
+        SubNavigationMenuPage subNavigationMenuPage = PageFactory.initElements(driver, SubNavigationMenuPage.class);
+        AboutPage aboutPage = PageFactory.initElements(driver, AboutPage.class);
+        AssignmentsPage assignmentsPage = PageFactory.initElements(driver, AssignmentsPage.class);
+        go_to_the_site("staging");
+        loginPage.login_as("test3", "123123qwe");
+        contentMarketMenuPage.open_cm_menu();
+        contentMarketMenuPage.navigate_to("assignments");
+        subNavigationMenuPage.click_on_portfolio_tab();
+        portfolioPage.verify_portfolio_sections_present();
+        subNavigationMenuPage.click_on_about_tab();
+        aboutPage.verify_heading_text("About Content Market");
+        aboutPage.verify_infobox_present();
+        subNavigationMenuPage.click_on_portfolio_tab();
+        portfolioPage.verify_portfolio_sections_present();
+        subNavigationMenuPage.click_on_assignments_tab();
+        assignmentsPage.verify_heading_text("Available assignments");
+        subNavigationMenuPage.click_on_about_tab();
+        aboutPage.verify_heading_text("About Content Market");
+        aboutPage.verify_infobox_present();
+        subNavigationMenuPage.click_on_assignments_tab();
+        assignmentsPage.verify_heading_text("Available assignments");
+
+
 
     }
 }
