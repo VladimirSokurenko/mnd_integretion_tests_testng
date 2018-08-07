@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="49569" started-at="2018-07-25T14:03:22Z" finished-at="2018-07-25T14:04:11Z">
+  <suite name="Default Suite" duration-ms="247584" started-at="2018-08-07T12:52:21Z" finished-at="2018-08-07T12:56:29Z">
     <groups>
     </groups>
-    <test name="mnd_integration_tests" duration-ms="49569" started-at="2018-07-25T14:03:22Z" finished-at="2018-07-25T14:04:11Z">
+    <test name="mnd_integration_tests" duration-ms="247584" started-at="2018-08-07T12:52:21Z" finished-at="2018-08-07T12:56:29Z">
       <class name="integrationTests.ContentCreatorTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="setUp" is-config="true" duration-ms="2607" started-at="2018-07-25T14:03:22Z" finished-at="2018-07-25T14:03:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:integrationTests.ContentCreatorTests@1134affc]" name="setUp" is-config="true" duration-ms="2394" started-at="2018-08-07T12:52:21Z" finished-at="2018-08-07T12:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login_as_content_creator_test()[pri:1, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="login_as_content_creator_test" duration-ms="10630" started-at="2018-07-25T14:03:24Z" description="This test will verify login feature for Content Creator" finished-at="2018-07-25T14:03:35Z">
+        <test-method status="PASS" signature="login_as_content_creator_test()[pri:1, instance:integrationTests.ContentCreatorTests@1134affc]" name="login_as_content_creator_test" duration-ms="13447" started-at="2018-08-07T12:52:23Z" description="This test will verify login feature for Content Creator" finished-at="2018-08-07T12:52:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_as_content_creator_test -->
-        <test-method status="PASS" signature="view_as_visitor_test()[pri:2, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="view_as_visitor_test" duration-ms="9174" started-at="2018-07-25T14:03:35Z" description="verify view as visitor feature" finished-at="2018-07-25T14:03:44Z">
+        <test-method status="PASS" signature="view_as_visitor_test()[pri:2, instance:integrationTests.ContentCreatorTests@1134affc]" name="view_as_visitor_test" duration-ms="12503" started-at="2018-08-07T12:52:37Z" description="verify view as visitor feature" finished-at="2018-08-07T12:52:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- view_as_visitor_test -->
-        <test-method status="PASS" signature="edit_portfolio_test()[pri:3, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="edit_portfolio_test" duration-ms="15130" started-at="2018-07-25T14:03:44Z" description="verify edit portfolio" finished-at="2018-07-25T14:03:59Z">
+        <test-method status="PASS" signature="edit_portfolio_test()[pri:3, instance:integrationTests.ContentCreatorTests@1134affc]" name="edit_portfolio_test" duration-ms="36025" started-at="2018-08-07T12:52:49Z" description="verify edit portfolio" finished-at="2018-08-07T12:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edit_portfolio_test -->
-        <test-method status="PASS" signature="create_portfolio_item()[pri:4, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="create_portfolio_item" duration-ms="11925" started-at="2018-07-25T14:03:59Z" description="verify create portfolio item" finished-at="2018-07-25T14:04:11Z">
+        <test-method status="PASS" signature="create_portfolio_item()[pri:4, instance:integrationTests.ContentCreatorTests@1134affc]" name="create_portfolio_item" duration-ms="16272" started-at="2018-08-07T12:53:25Z" description="verify create portfolio item" finished-at="2018-08-07T12:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_portfolio_item -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:integrationTests.ContentCreatorTests@56cbfb61]" name="quit" is-config="true" duration-ms="83" started-at="2018-07-25T14:04:11Z" finished-at="2018-07-25T14:04:11Z">
+        <test-method status="PASS" signature="edit_portfolio_item()[pri:5, instance:integrationTests.ContentCreatorTests@1134affc]" name="edit_portfolio_item" duration-ms="26904" started-at="2018-08-07T12:53:42Z" description="verify ability to edit portfolio item" finished-at="2018-08-07T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_portfolio_item -->
+        <test-method status="PASS" signature="view_portfolio_item()[pri:6, instance:integrationTests.ContentCreatorTests@1134affc]" name="view_portfolio_item" duration-ms="22716" started-at="2018-08-07T12:54:09Z" description="checks ability to view portfolio item" finished-at="2018-08-07T12:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_portfolio_item -->
+        <test-method status="PASS" signature="delete_portfolio_item()[pri:7, instance:integrationTests.ContentCreatorTests@1134affc]" name="delete_portfolio_item" duration-ms="14817" started-at="2018-08-07T12:54:31Z" description="checks ability to delete PI" finished-at="2018-08-07T12:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_portfolio_item -->
+        <test-method status="PASS" signature="portfolio_item_link_transferring()[pri:8, instance:integrationTests.ContentCreatorTests@1134affc]" name="portfolio_item_link_transferring" duration-ms="14570" started-at="2018-08-07T12:54:46Z" description="checks portfolio item link transferring" finished-at="2018-08-07T12:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolio_item_link_transferring -->
+        <test-method status="PASS" signature="delete_portfolio_avatar_image()[pri:9, instance:integrationTests.ContentCreatorTests@1134affc]" name="delete_portfolio_avatar_image" duration-ms="41341" started-at="2018-08-07T12:55:01Z" description="checks ability to remove avatar" finished-at="2018-08-07T12:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_portfolio_avatar_image -->
+        <test-method status="PASS" signature="delete_portfolio_cover_image()[pri:10, instance:integrationTests.ContentCreatorTests@1134affc]" name="delete_portfolio_cover_image" duration-ms="46491" started-at="2018-08-07T12:55:42Z" description="checks ability to remove cover image" finished-at="2018-08-07T12:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_portfolio_cover_image -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:integrationTests.ContentCreatorTests@1134affc]" name="quit" is-config="true" duration-ms="79" started-at="2018-08-07T12:56:29Z" finished-at="2018-08-07T12:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

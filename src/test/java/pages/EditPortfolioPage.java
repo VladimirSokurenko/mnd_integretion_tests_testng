@@ -2,6 +2,7 @@ package pages;
 
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -176,6 +177,24 @@ public class EditPortfolioPage {
             btn_save_portfolio.click();
         }
 
+    }
+
+    public void verify_avatar_is_not_present(){
+        if(is_remove_avatar_btn_present()){
+
+            throw new NoSuchElementException("Avatar was not removed");
+        } else {
+            System.out.println("Avatar image removed");
+        }
+    }
+
+    public void verify_cover_image_is_not_present(){
+        if(is_remove_cover_btn_present()){
+
+            throw new NoSuchElementException("Cover image was not removed");
+        } else {
+            System.out.println("Cover image removed");
+        }
     }
 
 

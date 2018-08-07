@@ -6,7 +6,8 @@
       <class name="integrationTests.ContentCreatorTests">
         <methods>
           <include name="quit"/>
-          <include name="view_as_visitor_test"/>
+          <include name="create_portfolio_item"/>
+          <include name="edit_portfolio_test"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- integrationTests.ContentCreatorTests -->

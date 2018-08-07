@@ -19,7 +19,7 @@ public class WebDriverSetup {
         System.setProperty("chromedriver", "/home/alexander/IdeaProjects/mnd_integration_tests");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
     }
 
@@ -40,10 +40,10 @@ public class WebDriverSetup {
     }
 
 
-    @AfterTest
-    public void quit(){
-        driver.quit();
-    }
+//    @AfterTest
+//    public void quit(){
+//        driver.quit();
+//    }
 
 
 

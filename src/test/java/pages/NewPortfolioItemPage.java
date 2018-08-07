@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,11 +30,17 @@ public class NewPortfolioItemPage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div/div/button[2]")
     WebElement btn_save_portfolio_item;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[4]/div/div[2]/div/div/article[2]/div/div/div/button[1]")
-    WebElement btn_remove_portofolio_item_image;
-
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div/div/button[1]")
     WebElement btn_cancel;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[4]/div/div[2]/div/div/article[2]/div/div/div/button[1]")
+    WebElement btn_remove_portfolio_item_image;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div[1]/button")
+    WebElement btn_delete_portfolio_item;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"app-overlay\"]/div/div/article/div[3]/button[2]")
+    WebElement btn_confirm_deleting;
 
     public void fill_in_title(String title_text){ title_field.sendKeys(title_text); }
 
@@ -60,6 +67,38 @@ public class NewPortfolioItemPage {
         ((JavascriptExecutor)driver).executeScript("scroll(0, 700)");
         btn_cancel.click();
     }
+
+    public void remove_text_fom_title(){
+        title_field.clear();
+    }
+
+    public void remove_text_fom_description(){
+        description_field.clear();
+    }
+
+    public void remove_text_fom_url(){
+        url_field.clear();
+    }
+
+    public void remove_portfolio_item_image_if_present(){ // need to be modified
+           try {
+               do {
+                   btn_remove_portfolio_item_image.click();
+               } while (btn_remove_portfolio_item_image.isDisplayed());
+           }catch (org.openqa.selenium.NoSuchElementException e){
+               System.out.println("All images are removed");
+           }
+
+
+    }
+
+    public void click_delete_btn(){ btn_delete_portfolio_item.click(); }
+
+    public void click_delete_confirmation_btn(){ btn_confirm_deleting.click();}
+
+
+
+
 
 
 
