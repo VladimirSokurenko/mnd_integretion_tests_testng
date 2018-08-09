@@ -304,4 +304,25 @@ public class ContentCreatorTests extends WebDriverSetup {
 
 
     }
+
+    @Test
+    public void check_assignments_selector(){
+        LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+        ContentMarketMenuPage contentMarketMenuPage = PageFactory.initElements(driver, ContentMarketMenuPage.class);
+        PortfolioPage portfolioPage = PageFactory.initElements(driver, PortfolioPage.class);
+        SubNavigationMenuPage subNavigationMenuPage = PageFactory.initElements(driver, SubNavigationMenuPage.class);
+        AboutPage aboutPage = PageFactory.initElements(driver, AboutPage.class);
+        AssignmentsPage assignmentsPage = PageFactory.initElements(driver, AssignmentsPage.class);
+        go_to_the_site("staging");
+        loginPage.login_as("test3", "123123qwe");
+        contentMarketMenuPage.open_cm_menu();
+        contentMarketMenuPage.navigate_to("assignments");
+        assignmentsPage.verify_heading_text("Available assignments");
+        assignmentsPage.click_on_services_selector();
+        assignmentsPage.verify_pr_content_present("PR Content");
+        assignmentsPage.click_on_languages_selector();
+        assignmentsPage.verify_main_languages("Swedish", "Finnish");
+
+    }
+
 }

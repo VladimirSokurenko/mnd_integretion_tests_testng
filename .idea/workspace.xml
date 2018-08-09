@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92257e94-d466-4ba5-a7b6-0855084d24e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SubNavigationMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/integrationTests/ContentCreatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/integrationTests/ContentCreatorTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/web_driver_setup/WebDriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web_driver_setup/WebDriverSetup.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="ContentCreatorTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="305" column="5" lean-forward="true" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+            <state relative-caret-position="359">
+              <caret line="323" column="58" selection-start-line="323" selection-start-column="58" selection-end-line="323" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
@@ -38,56 +35,7 @@
                 <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
                 <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
                 <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-                <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssignmentsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentMarketMenuPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContentMarketMenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewPortfolioItemPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#switch_to_new_browser_tab#0;class#ViewPortfolioItemPage#0" />
+                <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
               </folding>
             </state>
           </provider>
@@ -96,8 +44,8 @@
       <file leaf-file-name="WebDriverSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="42" selection-start-line="42" selection-start-column="2" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="-180">
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubNavigationMenuPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SubNavigationMenuPage.java">
+      <file leaf-file-name="AssignmentsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="329">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,11 +109,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="54" />
-    <option name="y" value="-11" />
-    <option name="width" value="1313" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="34" />
+    <option name="width" value="1865" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +180,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContentCreatorTests.subnavigation_interactions">
+  <component name="RunManager" selected="TestNG.ContentCreatorTests.check_assignments_selector">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -299,6 +248,35 @@
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ContentCreatorTests.check_assignments_selector" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mnd_integration_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integrationTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="integrationTests" />
+      <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
+      <option name="METHOD_NAME" value="check_assignments_selector" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
     </configuration>
@@ -360,7 +338,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.edit_portfolio_test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentCreatorTests.sub_navigation_interactions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -373,36 +351,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
       <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="edit_portfolio_test" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ContentCreatorTests.portfolio_item_link_transferring" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mnd_integration_tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="integrationTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="integrationTests" />
-      <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="portfolio_item_link_transferring" />
+      <option name="METHOD_NAME" value="sub_navigation_interactions" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -496,19 +445,19 @@
     <list>
       <item itemvalue="TestNG.ContentCreatorTests" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.ContentCreatorTests.portfolio_item_link_transferring" />
-      <item itemvalue="TestNG.ContentCreatorTests.edit_portfolio_test" />
       <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_avatar_image" />
       <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_cover_image" />
       <item itemvalue="TestNG.ContentCreatorTests.subnavigation_interactions" />
+      <item itemvalue="TestNG.ContentCreatorTests.sub_navigation_interactions" />
+      <item itemvalue="TestNG.ContentCreatorTests.check_assignments_selector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContentCreatorTests.check_assignments_selector" />
+        <item itemvalue="TestNG.ContentCreatorTests.sub_navigation_interactions" />
         <item itemvalue="TestNG.ContentCreatorTests.subnavigation_interactions" />
         <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_cover_image" />
         <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_avatar_image" />
-        <item itemvalue="TestNG.ContentCreatorTests.edit_portfolio_test" />
-        <item itemvalue="TestNG.ContentCreatorTests.portfolio_item_link_transferring" />
       </list>
     </recent_temporary>
   </component>
@@ -526,15 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContentCreatorTests_delete_portfolio_avatar_image - 2018.08.07 at 14h 30m 04s.xml">
-      <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContentCreatorTests_delete_portfolio_avatar_image - 2018.08.07 at 15h 04m 38s.xml">
-      <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContentCreatorTests_delete_portfolio_avatar_image - 2018.08.07 at 15h 07m 09s.xml">
-      <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ContentCreatorTests_delete_portfolio_avatar_image - 2018.08.07 at 15h 08m 38s.xml">
       <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" configurationId="TestNG" />
     </history-entry>
@@ -556,6 +496,15 @@
     <history-entry file="ContentCreatorTests_subnavigation_interactions - 2018.08.07 at 17h 48m 14s.xml">
       <configuration name="ContentCreatorTests.subnavigation_interactions" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ContentCreatorTests_sub_navigation_interactions - 2018.08.08 at 12h 36m 26s.xml">
+      <configuration name="ContentCreatorTests.sub_navigation_interactions" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContentCreatorTests_check_assignments_selector - 2018.08.09 at 15h 20m 28s.xml">
+      <configuration name="ContentCreatorTests.check_assignments_selector" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContentCreatorTests_check_assignments_selector - 2018.08.09 at 15h 24m 16s.xml">
+      <configuration name="ContentCreatorTests.check_assignments_selector" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -567,7 +516,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1865" height="1084" extended-state="7" />
+    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -578,18 +527,18 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5019763" side_tool="true" weight="0.32917318" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.005533597" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8743083" visible="true" weight="0.4270724" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49802372" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8743083" visible="true" weight="0.4270724" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49802372" weight="0.32879582" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21330401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2204508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -633,7 +582,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -642,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="80" selection-start-line="76" selection-start-column="80" selection-end-line="76" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,23 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="100" column="61" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,7 +614,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -725,7 +649,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -734,13 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,23 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +681,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -817,7 +716,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -826,13 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,23 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,7 +758,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -909,7 +783,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -918,23 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
           <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,7 +821,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -983,23 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +859,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -1028,23 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,7 +887,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -1082,7 +905,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -1108,7 +930,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -1126,7 +948,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -1191,30 +1012,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContentMarketMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+        <state relative-caret-position="240">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="181">
+          <caret line="128" column="22" selection-start-line="127" selection-start-column="6" selection-end-line="129" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
@@ -1224,7 +1070,6 @@
             <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
             <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#scroll_to_portfolio_items_section#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
@@ -1234,48 +1079,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
+        <state relative-caret-position="421">
+          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#upload_avatar_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#upload_cover_image#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_cover_image_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#agile_avatar_upload#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_avatar_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#is_remove_cover_btn_present#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_name_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_title_filed#0;class#EditPortfolioPage#0" />
-            <element signature="method#fill_in_about_field#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_available_for_job_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_yes#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_get_digest_no#0;class#EditPortfolioPage#0" />
-            <element signature="method#click_save_portfolio_btn#0;class#EditPortfolioPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#switch_to_new_browser_tab#0;class#ViewPortfolioItemPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login_as#0;class#LoginPage#0" />
+            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
+            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
+            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
+            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
           </folding>
         </state>
       </provider>
@@ -1290,40 +1102,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="42" selection-start-line="42" selection-start-column="2" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContentMarketMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        <state relative-caret-position="329">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1332,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="305" column="5" lean-forward="true" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+        <state relative-caret-position="359">
+          <caret line="323" column="58" selection-start-line="323" selection-start-column="58" selection-end-line="323" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
@@ -1346,7 +1138,7 @@
             <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#subnavigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
