@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92257e94-d466-4ba5-a7b6-0855084d24e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/ApplyForAssignmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/ViewAssignmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/integrationTests/PressOfficerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/press_officer_pages/AssignmentsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/press_officer_pages/ContentMarketMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/press_officer_pages/CreateJobAssignmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/press_officer_pages/NewsRoomListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Suite/mnd_integration_tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Default Suite/mnd_integration_tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Suite/mnd_integration_tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Default Suite/mnd_integration_tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junitreports/TEST-integrationTests.ContentCreatorTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junitreports/TEST-integrationTests.ContentCreatorTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/AboutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/AssignmentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContentMarketMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/ContentMarketMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/NewPortfolioItemPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SubNavigationMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/SubNavigationMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ViewAsVisitorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/ViewAsVisitorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/content_creator_pages/ViewPortfolioItemPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/integrationTests/ContentCreatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/integrationTests/ContentCreatorTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AboutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AssignmentsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ContentMarketMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EditPortfolioPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/NewPortfolioItemPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PortfolioPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SubNavigationMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ViewAsVisitorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ViewPortfolioItemPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +59,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContentCreatorTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContentCreatorTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="323" column="58" selection-start-line="323" selection-start-column="58" selection-end-line="323" selection-end-column="58" />
+            <state relative-caret-position="-147">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
                 <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
                 <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
                 <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -36,7 +76,69 @@
                 <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
                 <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
                 <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+                <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+                <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PressOfficerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/PressOfficerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#login_as_press_officer_test#0;class#PressOfficerTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssignmentsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/AssignmentsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#verify_assignments_heading_displayed#0;class#AssignmentsPage#0" />
+                <element signature="method#verify_create_assignment_btn_is_present#0;class#AssignmentsPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateJobAssignmentPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/CreateJobAssignmentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsRoomListPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/NewsRoomListPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentMarketMenuPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ContentMarketMenuPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -44,8 +146,20 @@
       <file leaf-file-name="WebDriverSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="45" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewAssignmentPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ViewAssignmentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,12 +168,15 @@
         </entry>
       </file>
       <file leaf-file-name="AssignmentsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/AssignmentsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state relative-caret-position="258">
+              <caret line="58" column="110" selection-start-line="58" selection-start-column="90" selection-end-line="58" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#verify_heading_text#0;class#AssignmentsPage#0" />
+                <element signature="method#verify_main_languages#0;class#AssignmentsPage#0" />
+                <element signature="method#verify_message_was_sent#0;class#AssignmentsPage#0" />
               </folding>
             </state>
           </provider>
@@ -86,15 +203,23 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/ViewAsVisitorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPAge.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SubNavigationMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ViewAssignmentPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ApplyForAssignmentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/NewsRoomListPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/press_officer_pages/NewsRoomListPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/press_officer_pages/ContentMarketMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/press_officer_pages/AssignmentsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integrationTests/PressOfficerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/press_officer_pages/CreateJobAssignmentPage.java" />
       </list>
     </option>
   </component>
@@ -118,9 +243,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +286,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="content_creator_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mnd_integration_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnd_integration_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="integrationTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,7 +302,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="press_officer_pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mnd_integration_tests" type="b2602c69:ProjectViewProjectNode" />
@@ -180,13 +316,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FraudBuster" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -201,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContentCreatorTests.check_assignments_selector">
+  <component name="RunManager" selected="TestNG.PressOfficerTest.create_job_assignment">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -251,7 +385,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.check_assignments_selector" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentCreatorTests.create_portfolio_item" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -264,7 +398,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
       <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="check_assignments_selector" />
+      <option name="METHOD_NAME" value="create_portfolio_item" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -280,7 +414,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentCreatorTests.edit_portfolio_item" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -293,7 +427,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
       <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="delete_portfolio_avatar_image" />
+      <option name="METHOD_NAME" value="edit_portfolio_item" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -309,7 +443,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.delete_portfolio_cover_image" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentCreatorTests.view_portfolio_item" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -322,7 +456,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
       <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="delete_portfolio_cover_image" />
+      <option name="METHOD_NAME" value="view_portfolio_item" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -338,7 +472,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.sub_navigation_interactions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PressOfficerTest.create_job_assignment" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -350,8 +484,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
-      <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="sub_navigation_interactions" />
+      <option name="MAIN_CLASS_NAME" value="integrationTests.PressOfficerTest" />
+      <option name="METHOD_NAME" value="create_job_assignment" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -367,7 +501,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ContentCreatorTests.subnavigation_interactions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PressOfficerTest.login_as_press_officer_test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mnd_integration_tests" />
       <extension name="coverage">
         <pattern>
@@ -379,8 +513,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="integrationTests" />
-      <option name="MAIN_CLASS_NAME" value="integrationTests.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="subnavigation_interactions" />
+      <option name="MAIN_CLASS_NAME" value="integrationTests.PressOfficerTest" />
+      <option name="METHOD_NAME" value="login_as_press_officer_test" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -445,19 +579,19 @@
     <list>
       <item itemvalue="TestNG.ContentCreatorTests" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_avatar_image" />
-      <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_cover_image" />
-      <item itemvalue="TestNG.ContentCreatorTests.subnavigation_interactions" />
-      <item itemvalue="TestNG.ContentCreatorTests.sub_navigation_interactions" />
-      <item itemvalue="TestNG.ContentCreatorTests.check_assignments_selector" />
+      <item itemvalue="TestNG.ContentCreatorTests.create_portfolio_item" />
+      <item itemvalue="TestNG.ContentCreatorTests.edit_portfolio_item" />
+      <item itemvalue="TestNG.ContentCreatorTests.view_portfolio_item" />
+      <item itemvalue="TestNG.PressOfficerTest.login_as_press_officer_test" />
+      <item itemvalue="TestNG.PressOfficerTest.create_job_assignment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContentCreatorTests.check_assignments_selector" />
-        <item itemvalue="TestNG.ContentCreatorTests.sub_navigation_interactions" />
-        <item itemvalue="TestNG.ContentCreatorTests.subnavigation_interactions" />
-        <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_cover_image" />
-        <item itemvalue="TestNG.ContentCreatorTests.delete_portfolio_avatar_image" />
+        <item itemvalue="TestNG.PressOfficerTest.create_job_assignment" />
+        <item itemvalue="TestNG.PressOfficerTest.login_as_press_officer_test" />
+        <item itemvalue="TestNG.ContentCreatorTests.view_portfolio_item" />
+        <item itemvalue="TestNG.ContentCreatorTests.create_portfolio_item" />
+        <item itemvalue="TestNG.ContentCreatorTests.edit_portfolio_item" />
       </list>
     </recent_temporary>
   </component>
@@ -475,35 +609,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContentCreatorTests_delete_portfolio_avatar_image - 2018.08.07 at 15h 08m 38s.xml">
-      <configuration name="ContentCreatorTests.delete_portfolio_avatar_image" configurationId="TestNG" />
+    <history-entry file="ContentCreatorTests_create_portfolio_item - 2018.08.15 at 16h 35m 10s.xml">
+      <configuration name="ContentCreatorTests.create_portfolio_item" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_delete_portfolio_cover_image - 2018.08.07 at 15h 51m 36s.xml">
-      <configuration name="ContentCreatorTests.delete_portfolio_cover_image" configurationId="TestNG" />
+    <history-entry file="ContentCreatorTests_edit_portfolio_item - 2018.08.15 at 16h 36m 23s.xml">
+      <configuration name="ContentCreatorTests.edit_portfolio_item" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests - 2018.08.07 at 15h 56m 29s.xml">
-      <configuration name="ContentCreatorTests" configurationId="TestNG" />
+    <history-entry file="ContentCreatorTests_create_portfolio_item - 2018.08.15 at 16h 38m 28s.xml">
+      <configuration name="ContentCreatorTests.create_portfolio_item" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_subnavigation_interactions - 2018.08.07 at 16h 29m 26s.xml">
-      <configuration name="ContentCreatorTests.subnavigation_interactions" configurationId="TestNG" />
+    <history-entry file="ContentCreatorTests_create_portfolio_item - 2018.08.15 at 16h 56m 07s.xml">
+      <configuration name="ContentCreatorTests.create_portfolio_item" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_subnavigation_interactions - 2018.08.07 at 16h 46m 17s.xml">
-      <configuration name="ContentCreatorTests.subnavigation_interactions" configurationId="TestNG" />
+    <history-entry file="ContentCreatorTests_view_portfolio_item - 2018.08.15 at 16h 57m 29s.xml">
+      <configuration name="ContentCreatorTests.view_portfolio_item" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_subnavigation_interactions - 2018.08.07 at 16h 47m 01s.xml">
-      <configuration name="ContentCreatorTests.subnavigation_interactions" configurationId="TestNG" />
+    <history-entry file="PressOfficerTest_login_as_press_officer_test - 2018.08.15 at 17h 59m 45s.xml">
+      <configuration name="PressOfficerTest.login_as_press_officer_test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_subnavigation_interactions - 2018.08.07 at 17h 48m 14s.xml">
-      <configuration name="ContentCreatorTests.subnavigation_interactions" configurationId="TestNG" />
+    <history-entry file="PressOfficerTest_login_as_press_officer_test - 2018.08.15 at 18h 48m 21s.xml">
+      <configuration name="PressOfficerTest.login_as_press_officer_test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_sub_navigation_interactions - 2018.08.08 at 12h 36m 26s.xml">
-      <configuration name="ContentCreatorTests.sub_navigation_interactions" configurationId="TestNG" />
+    <history-entry file="PressOfficerTest_login_as_press_officer_test - 2018.08.15 at 19h 26m 40s.xml">
+      <configuration name="PressOfficerTest.login_as_press_officer_test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_check_assignments_selector - 2018.08.09 at 15h 20m 28s.xml">
-      <configuration name="ContentCreatorTests.check_assignments_selector" configurationId="TestNG" />
+    <history-entry file="PressOfficerTest_login_as_press_officer_test - 2018.08.15 at 19h 27m 30s.xml">
+      <configuration name="PressOfficerTest.login_as_press_officer_test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_check_assignments_selector - 2018.08.09 at 15h 24m 16s.xml">
-      <configuration name="ContentCreatorTests.check_assignments_selector" configurationId="TestNG" />
+    <history-entry file="PressOfficerTest_create_job_assignment - 2018.08.15 at 19h 31m 25s.xml">
+      <configuration name="PressOfficerTest.create_job_assignment" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -516,7 +650,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -528,11 +662,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5019763" side_tool="true" weight="0.32917318" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.005533597" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8743083" visible="true" weight="0.4270724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8743083" visible="true" weight="0.4270724" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49802372" weight="0.32879582" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2204508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22924684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -552,141 +686,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="45" column="7" selection-start-line="41" selection-start-column="2" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#edit_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#view_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="80" selection-start-line="76" selection-start-column="80" selection-end-line="76" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="61" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
-            <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#edit_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#view_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_item#0;class#ContentCreatorTests#0" />
-            <element signature="method#portfolio_item_link_transferring#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
-            <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
           <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,7 +713,6 @@
           <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -717,18 +723,20 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/NewPortfolioItemPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
@@ -745,25 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +766,6 @@
           <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -784,11 +776,13 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
           <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
@@ -811,7 +805,6 @@
           <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -822,6 +815,8 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
@@ -836,7 +831,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
@@ -849,7 +844,6 @@
           <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -860,11 +854,13 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
@@ -877,7 +873,6 @@
           <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -888,29 +883,16 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,7 +902,6 @@
           <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -931,29 +912,16 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,13 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1008,127 +969,136 @@
     <entry file="file://$PROJECT_DIR$/test-output/Default Suite/mnd_integration_tests.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ViewAsVisitorPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ViewAsVisitorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContentMarketMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/AboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ViewPortfolioItemPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ViewPortfolioItemPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-          <folding>
-            <element signature="e#3039#3040#0" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditPortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="9" selection-start-column="3" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/EditPortfolioPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
           <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortfolioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/PortfolioPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="128" column="22" selection-start-line="127" selection-start-column="6" selection-end-line="129" selection-end-column="7" />
+        <state relative-caret-position="99">
+          <caret line="128" column="88" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="88" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verify_main_heading_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_sections_present#0;class#PortfolioPage#0" />
-            <element signature="method#verify_name_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_about_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_avatar_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_cover_image_is_displayed#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_title_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_description_text#0;class#PortfolioPage#0" />
-            <element signature="method#verify_portfolio_item_url_text#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_cover_image#0;class#PortfolioPage#0" />
             <element signature="method#verify_portfolio_item_deleted#0;class#PortfolioPage#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewPortfolioItemPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ApplyForAssignmentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
-          <folding>
-            <element signature="method#upload_portfolio_item_image#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_save_portfolio_item_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#click_cancel_btn#0;class#NewPortfolioItemPage#0" />
-            <element signature="method#remove_portfolio_item_image_if_present#0;class#NewPortfolioItemPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SubNavigationMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AssignmentsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ViewAssignmentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        <state relative-caret-position="285">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/AssignmentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="58" column="110" selection-start-line="58" selection-start-column="90" selection-end-line="58" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#verify_heading_text#0;class#AssignmentsPage#0" />
+            <element signature="method#verify_main_languages#0;class#AssignmentsPage#0" />
+            <element signature="method#verify_message_was_sent#0;class#AssignmentsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/NewPortfolioItemPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/web_driver_setup/WebDriverSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewsRoomListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/SubNavigationMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/ViewPortfolioItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/ContentCreatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="323" column="58" selection-start-line="323" selection-start-column="58" selection-end-line="323" selection-end-column="58" />
+        <state relative-caret-position="-147">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login_as_content_creator_test#0;class#ContentCreatorTests#0" />
             <element signature="method#view_as_visitor_test#0;class#ContentCreatorTests#0" />
             <element signature="method#edit_portfolio_test#0;class#ContentCreatorTests#0" />
             <element signature="method#create_portfolio_item#0;class#ContentCreatorTests#0" />
@@ -1139,6 +1109,69 @@
             <element signature="method#delete_portfolio_avatar_image#0;class#ContentCreatorTests#0" />
             <element signature="method#delete_portfolio_cover_image#0;class#ContentCreatorTests#0" />
             <element signature="method#sub_navigation_interactions#0;class#ContentCreatorTests#0" />
+            <element signature="method#check_assignments_selector#0;class#ContentCreatorTests#0" />
+            <element signature="method#apply_job_assignment#0;class#ContentCreatorTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/ContentMarketMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#navigate_to#0;class#ContentMarketMenuPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/NewsRoomListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/content_creator_pages/ContentMarketMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integrationTests/PressOfficerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login_as_press_officer_test#0;class#PressOfficerTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/AssignmentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#verify_assignments_heading_displayed#0;class#AssignmentsPage#0" />
+            <element signature="method#verify_create_assignment_btn_is_present#0;class#AssignmentsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/press_officer_pages/CreateJobAssignmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

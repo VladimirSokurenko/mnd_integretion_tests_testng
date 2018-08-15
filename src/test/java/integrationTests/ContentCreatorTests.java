@@ -2,7 +2,7 @@ package integrationTests;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import pages.*;
+import content_creator_pages.*;
 import web_driver_setup.WebDriverSetup;
 
     /**
@@ -87,7 +87,7 @@ public class ContentCreatorTests extends WebDriverSetup {
 
     }
 
-    @Test(priority = 4, description = "verify create portfolio item")
+    @Test(priority = 4, description = "verify create portfolio item") // does not work
     public void create_portfolio_item() throws InterruptedException{
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         ContentMarketMenuPage contentMarketMenuPage = PageFactory.initElements(driver, ContentMarketMenuPage.class);
@@ -103,7 +103,7 @@ public class ContentCreatorTests extends WebDriverSetup {
         String random_description = get_random_text("description: ");
         newPortfolioItemPage.fill_in_description(random_description);
         newPortfolioItemPage.fill_in_url("www.youtube.com");
-        newPortfolioItemPage.upload_portfolio_item_image("/home/alexander/Desktop/coverimg.jpg");
+        newPortfolioItemPage.upload_portfolio_item_image("/home/alexander/Desktop/testng.jpg");
         newPortfolioItemPage.click_save_portfolio_item_btn();
         portfolioPage.scroll_to_portfolio_items_section();
         portfolioPage.verify_portfolio_item_title_text(random_title);
@@ -305,13 +305,10 @@ public class ContentCreatorTests extends WebDriverSetup {
 
     }
 
-    @Test
+    @Test(priority = 12, description = "checks filtering section")
     public void check_assignments_selector(){
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         ContentMarketMenuPage contentMarketMenuPage = PageFactory.initElements(driver, ContentMarketMenuPage.class);
-        PortfolioPage portfolioPage = PageFactory.initElements(driver, PortfolioPage.class);
-        SubNavigationMenuPage subNavigationMenuPage = PageFactory.initElements(driver, SubNavigationMenuPage.class);
-        AboutPage aboutPage = PageFactory.initElements(driver, AboutPage.class);
         AssignmentsPage assignmentsPage = PageFactory.initElements(driver, AssignmentsPage.class);
         go_to_the_site("staging");
         loginPage.login_as("test3", "123123qwe");
@@ -325,4 +322,25 @@ public class ContentCreatorTests extends WebDriverSetup {
 
     }
 
+    @Test(priority = 13, description = "checks apply for a job")
+    public void apply_job_assignment() throws InterruptedException {
+        LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+        ContentMarketMenuPage contentMarketMenuPage = PageFactory.initElements(driver, ContentMarketMenuPage.class);
+        AssignmentsPage assignmentsPage = PageFactory.initElements(driver, AssignmentsPage.class);
+        ViewAssignmentPage viewAssignmentPage = PageFactory.initElements(driver, ViewAssignmentPage.class);
+        ApplyForAssignmentPage applyForAssignmentPage = PageFactory.initElements(driver, ApplyForAssignmentPage.class);
+        go_to_the_site("staging");
+        loginPage.login_as("test3", "123123qwe");
+        contentMarketMenuPage.open_cm_menu();
+        contentMarketMenuPage.navigate_to("assignments");
+        assignmentsPage.scroll_to_assignments_list();
+        assignmentsPage.click_on_view_assignment_btn();
+        viewAssignmentPage.scroll_to_apply_for_assignment_btn();
+        viewAssignmentPage.click_on_apply_for_assignment_btn();
+        applyForAssignmentPage.fill_in_subject_field("automation_test_subj");
+        applyForAssignmentPage.fill_in_message_field("automation_test_message");
+        applyForAssignmentPage.click_on_contact_button();
+        assignmentsPage.verify_message_was_sent("The message was successfully sent");
+
+    }
 }

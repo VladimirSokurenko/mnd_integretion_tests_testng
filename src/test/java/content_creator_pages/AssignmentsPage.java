@@ -1,11 +1,11 @@
-package pages;
+package content_creator_pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class AssignmentsPage {
 
@@ -31,6 +31,12 @@ public class AssignmentsPage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/ul/li[6]/button")
     WebElement finish_item;
 
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div/ul/li[2]/button")
+    WebElement btn_view_assignment;
+
+    @FindBy(how = How.CLASS_NAME, using = "mnd-toaster")
+    WebElement success_message;
+
     public void verify_heading_text(String heading_text){
         Assert.assertEquals(assignments_section_heading.getText(), heading_text);
     }
@@ -47,6 +53,17 @@ public class AssignmentsPage {
         Assert.assertEquals(swedish_item.getText(),language1);
         Assert.assertEquals(finish_item.getText(), language2);
     }
+
+    public void click_on_view_assignment_btn(){ btn_view_assignment.click(); }
+
+    public void scroll_to_assignments_list(){ ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", btn_view_assignment); }
+
+    public void verify_message_was_sent(String success_message_text) throws InterruptedException{
+        Thread.sleep(1500); // what have I done
+        Assert.assertEquals(success_message.getText(), success_message_text );
+    }
+
+
 
 
 

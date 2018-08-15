@@ -1,4 +1,4 @@
-package pages;
+package content_creator_pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

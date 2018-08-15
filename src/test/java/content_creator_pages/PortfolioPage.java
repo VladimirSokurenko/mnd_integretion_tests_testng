@@ -1,10 +1,8 @@
-package pages;
+package content_creator_pages;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
@@ -135,10 +133,6 @@ public class PortfolioPage {
 
       public void verify_portfolio_item_description_text(String description_text){
           Assert.assertEquals(portfolio_item_description.getText(), description_text);
-      }
-
-      public void verify_portfolio_item_url_text(String url_text){
-         // Assert.assertEquals();
       }
 
       public void verify_portfolio_item_cover_image(){

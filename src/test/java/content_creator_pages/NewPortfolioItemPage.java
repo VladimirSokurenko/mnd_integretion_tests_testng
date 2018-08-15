@@ -1,7 +1,6 @@
-package pages;
+package content_creator_pages;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,11 +53,11 @@ public class NewPortfolioItemPage {
     }
 
     public void click_save_portfolio_item_btn() throws InterruptedException{
-        ((JavascriptExecutor)driver).executeScript("scroll(0, 700)");
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", btn_save_portfolio_item);
         if(btn_save_portfolio_item.isEnabled()){
             btn_save_portfolio_item.click();
         } else {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
             btn_save_portfolio_item.click();
         }
     }

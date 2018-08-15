@@ -9,19 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default Suite</th></tr>
-<tr><td><a href="#t0">mnd_integration_tests</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">247,584</td><td></td><td></td></tr>
+<tr><td><a href="#t0">mnd_integration_tests</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">50,186</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">mnd_integration_tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">integrationTests.ContentCreatorTests</td><td><a href="#m0">create_portfolio_item</a></td><td rowspan="1">1533646405974</td><td rowspan="1">16272</td></tr><tr class="passedeven"><td><a href="#m1">delete_portfolio_avatar_image</a></td><td rowspan="1">1533646501259</td><td rowspan="1">41341</td></tr><tr class="passedeven"><td><a href="#m2">delete_portfolio_cover_image</a></td><td rowspan="1">1533646542601</td><td rowspan="1">46491</td></tr><tr class="passedeven"><td><a href="#m3">delete_portfolio_item</a></td><td rowspan="1">1533646471870</td><td rowspan="1">14817</td></tr><tr class="passedeven"><td><a href="#m4">edit_portfolio_item</a></td><td rowspan="1">1533646422247</td><td rowspan="1">26904</td></tr><tr class="passedeven"><td><a href="#m5">edit_portfolio_test</a></td><td rowspan="1">1533646369948</td><td rowspan="1">36025</td></tr><tr class="passedeven"><td><a href="#m6">login_as_content_creator_test</a></td><td rowspan="1">1533646343994</td><td rowspan="1">13447</td></tr><tr class="passedeven"><td><a href="#m7">portfolio_item_link_transferring</a></td><td rowspan="1">1533646486688</td><td rowspan="1">14570</td></tr><tr class="passedeven"><td><a href="#m8">view_as_visitor_test</a></td><td rowspan="1">1533646357444</td><td rowspan="1">12503</td></tr><tr class="passedeven"><td><a href="#m9">view_portfolio_item</a></td><td rowspan="1">1533646449152</td><td rowspan="1">22716</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">mnd_integration_tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">integrationTests.ContentCreatorTests</td><td><a href="#m0">delete_portfolio_avatar_image</a></td><td rowspan="1">1534338686287</td><td rowspan="1">47534</td></tr></tbody>
 </table>
-<h2>mnd_integration_tests</h2><h3 id="m0">integrationTests.ContentCreatorTests#create_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">integrationTests.ContentCreatorTests#delete_portfolio_avatar_image</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">integrationTests.ContentCreatorTests#delete_portfolio_cover_image</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">integrationTests.ContentCreatorTests#delete_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">integrationTests.ContentCreatorTests#edit_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">integrationTests.ContentCreatorTests#edit_portfolio_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">integrationTests.ContentCreatorTests#login_as_content_creator_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">integrationTests.ContentCreatorTests#portfolio_item_link_transferring</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">integrationTests.ContentCreatorTests#view_as_visitor_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">integrationTests.ContentCreatorTests#view_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>mnd_integration_tests</h2><h3 id="m0">integrationTests.ContentCreatorTests#delete_portfolio_avatar_image</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException:
+    no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;react-container&quot;]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[2]&quot;}
+    (Session info: chrome=63.0.3239.108)
+    (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-97-generic
+    x86_64) (WARNING: The server did not provide any stacktrace information)
+    Command duration or timeout: 0 milliseconds
+    For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+    Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+    System info: host: &apos;workstation&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;,
+    os.version: &apos;4.4.0-97-generic&apos;, java.version: &apos;1.8.0_151&apos;
+    Driver info: org.openqa.selenium.chrome.ChromeDriver
+    Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName:
+    chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...},
+    cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled:
+    true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled:
+    false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true,
+    takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version:
+    63.0.3239.108, webStorageEnabled: true}
+    Session ID: e7934e643ec511d7ce2fa038226917b8
+    *** Element info: {Using=xpath, value=//*[@id=&quot;react-container&quot;]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[2]}
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+    at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+    at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+    at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+    at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+    at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+    at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+    at com.sun.proxy.$Proxy8.click(Unknown Source)
+    at content_creator_pages.PortfolioPage.click_edit_portfolio_btn(PortfolioPage.java:96)
+    at integrationTests.ContentCreatorTests.delete_portfolio_avatar_image(ContentCreatorTests.java:248)
+    ... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
