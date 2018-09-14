@@ -1,11 +1,14 @@
 package content_creator_pages;
 
 
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import java.security.Key;
 
 public class EditPortfolioPage {
 
@@ -17,6 +20,9 @@ public class EditPortfolioPage {
 
     @FindBy(how = How.NAME, using = "avatarUrl")
     WebElement input_avatar_image;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[3]/div[1]/div/div/div[2]/div/button")
+    WebElement clear_name_field_btn;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[1]/div/div/div[2]/div/div/div/button")
     WebElement btn_remove_avatar;
@@ -32,6 +38,9 @@ public class EditPortfolioPage {
 
     @FindBy(how = How.NAME, using = "title")
     WebElement input_title_text;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[3]/div[2]/div/div/div[2]/div/button")
+    WebElement remove_title_text_btn;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[4]/div/div/div[1]/div/div/div[2]/div/label[1]")
     WebElement btn_available_for_job_yes;
@@ -51,12 +60,15 @@ public class EditPortfolioPage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/footer/div/button")
     WebElement btn_save_portfolio;
 
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/div/div/div/h1")
+    WebElement edit_portfolio_heading;
 
-
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[1]/div/div/div[2]/div/div")
+    WebElement uploaded_avatar_image;
 
     public void upload_avatar_image(String path) throws InterruptedException{
         input_avatar_image.sendKeys(path);
-        //Thread.sleep(5000);
+
 
     }
 
@@ -66,7 +78,7 @@ public class EditPortfolioPage {
 
     public void upload_cover_image(String path) throws InterruptedException{
         input_cover_inage.sendKeys(path);
-        //Thread.sleep(5000);
+
     }
 
     public void remove_cover_image(){
@@ -110,10 +122,9 @@ public class EditPortfolioPage {
     }  //hack
 
     public void fill_in_name_field(String name){
-
-        input_name_text.clear();
+        clear_name_field_btn.click();
+        clear_name_field_btn.click();
         input_name_text.sendKeys(name);
-
     }
 
     public void fill_in_title_filed(String title){
@@ -165,13 +176,10 @@ public class EditPortfolioPage {
     }
 
     public void click_save_portfolio_btn() throws InterruptedException{
-
-        if(btn_save_portfolio.isEnabled()){
-            btn_save_portfolio.click();
-        } else {
-            Thread.sleep(5000);
-            btn_save_portfolio.click();
-        }
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", btn_save_portfolio);
+        WebDriverWait wait = new WebDriverWait(driver, 1000);
+        wait.until(ExpectedConditions.elementToBeClickable(btn_save_portfolio));
+        btn_save_portfolio.click();
 
     }
 
@@ -193,6 +201,49 @@ public class EditPortfolioPage {
         }
     }
 
+    public void remove_title_text(){
+        if(remove_title_text_btn.isDisplayed()){
+            remove_title_text_btn.click();
+        } else {
+            System.out.println("title is already removed");
+        }
+    }
+
+    public void verify_edit_portfolio_heading(String text){
+        Assert.assertEquals(edit_portfolio_heading.getText(), text);
+    }
+
+    //refactored methods
+
+    public void upload_avatar_image_two(String path){
+        if(is_remove_avatar_btn_present()){
+            btn_remove_avatar.click();
+            input_avatar_image.sendKeys(path);
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.visibilityOf(btn_remove_avatar));
+
+        } else {
+            input_avatar_image.sendKeys(path);
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.visibilityOf(btn_remove_avatar));
+        }
+
+    }
+
+    public void upload_cover_image_two(String path){
+        if(is_remove_cover_btn_present()){
+            btn_remove_cover_iamge.click();
+            input_cover_inage.sendKeys(path);
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.visibilityOf(btn_remove_cover_iamge));
+
+        } else {
+            input_cover_inage.sendKeys(path);
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.visibilityOf(btn_remove_cover_iamge));
+        }
+
+    }
 
 
 

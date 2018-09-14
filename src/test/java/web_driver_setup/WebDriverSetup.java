@@ -40,10 +40,10 @@ public class WebDriverSetup {
     }
 
 
-//    @AfterTest
-//    public void quit(){
-//        driver.quit();
-//    }
+    @AfterTest
+    public void quit(){
+        driver.quit();
+    }
 
 
 

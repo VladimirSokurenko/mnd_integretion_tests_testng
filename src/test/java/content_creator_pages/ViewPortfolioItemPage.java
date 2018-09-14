@@ -60,7 +60,7 @@ public class ViewPortfolioItemPage {
         Assert.assertEquals(potfolio_item_description.getText(), text);
     }
 
-    public void click_profile_bradcrumbs(){ link_profile_breadcrumbs.click(); }
+    public void click_profile_breadcrumbs(){ link_profile_breadcrumbs.click(); }
 
     public void click_on_image_thumbnail(){ image_thumbnail.click(); }
 

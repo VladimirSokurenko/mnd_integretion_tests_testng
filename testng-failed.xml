@@ -5,6 +5,9 @@
     <classes>
       <class name="integrationTests.ContentCreatorTests">
         <methods>
+          <include name="portfolio_items_pagination_in_view_as_visitor"/>
+          <include name="edit_portfolio_item"/>
+          <include name="portfolio_item_link_transferring"/>
           <include name="quit"/>
           <include name="delete_portfolio_avatar_image"/>
           <include name="setUp"/>

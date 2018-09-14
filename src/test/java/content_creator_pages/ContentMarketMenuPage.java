@@ -17,20 +17,22 @@ public class ContentMarketMenuPage {
     }
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span")
-    @CacheLookup
     WebElement cm_navigation_tab;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[1]")
-    @CacheLookup
     WebElement assignments_drop_down;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]")
-    @CacheLookup
     WebElement portfolio_drop_down;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[3]")
-    @CacheLookup
     WebElement about_drop_down;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[3]/ol/li/div/span")
+    WebElement profile_settings_tab;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[3]/ol/li/div/div/div/a[5]")
+    WebElement log_out_option;
 
     public void open_cm_menu(){ cm_navigation_tab.click(); }
 
@@ -54,5 +56,14 @@ public class ContentMarketMenuPage {
 
         }
 
+    }
+
+    public void open_profile_settings_tab(){ profile_settings_tab.click(); }
+
+    public void click_logout_option(){ log_out_option.click(); }
+
+    public void log_out(){
+        open_profile_settings_tab();
+        click_logout_option();
     }
 }

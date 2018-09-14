@@ -9,47 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default Suite</th></tr>
-<tr><td><a href="#t0">mnd_integration_tests</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">50,186</td><td></td><td></td></tr>
+<tr><td><a href="#t0">mnd_integration_tests</a></td><td class="num">18</td><td class="num">0</td><td class="num">0</td><td class="num">461,293</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">mnd_integration_tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">integrationTests.ContentCreatorTests</td><td><a href="#m0">delete_portfolio_avatar_image</a></td><td rowspan="1">1534338686287</td><td rowspan="1">47534</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">mnd_integration_tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="18">integrationTests.ContentCreatorTests</td><td><a href="#m0">apply_job_assignment</a></td><td rowspan="1">1536937932416</td><td rowspan="1">15116</td></tr><tr class="passedeven"><td><a href="#m1">check_assignments_selector</a></td><td rowspan="1">1536937925247</td><td rowspan="1">7168</td></tr><tr class="passedeven"><td><a href="#m2">clear_filters_via_zero_state_message</a></td><td rowspan="1">1536938001506</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m3">create_portfolio_item</a></td><td rowspan="1">1536937716909</td><td rowspan="1">12042</td></tr><tr class="passedeven"><td><a href="#m4">delete_portfolio_avatar_image</a></td><td rowspan="1">1536937830350</td><td rowspan="1">46086</td></tr><tr class="passedeven"><td><a href="#m5">delete_portfolio_cover_image</a></td><td rowspan="1">1536937876437</td><td rowspan="1">38761</td></tr><tr class="passedeven"><td><a href="#m6">delete_portfolio_item</a></td><td rowspan="1">1536937781314</td><td rowspan="1">19652</td></tr><tr class="passedeven"><td><a href="#m7">edit_portfolio_item</a></td><td rowspan="1">1536937728952</td><td rowspan="1">27089</td></tr><tr class="passedeven"><td><a href="#m8">edit_portfolio_test</a></td><td rowspan="1">1536937674093</td><td rowspan="1">42815</td></tr><tr class="passedeven"><td><a href="#m9">log_out_test</a></td><td rowspan="1">1536937591833</td><td rowspan="1">18141</td></tr><tr class="passedeven"><td><a href="#m10">login_as_content_creator_test</a></td><td rowspan="1">1536937576447</td><td rowspan="1">15384</td></tr><tr class="passedeven"><td><a href="#m11">main_navigation_menu_interaction</a></td><td rowspan="1">1536937609975</td><td rowspan="1">42847</td></tr><tr class="passedeven"><td><a href="#m12">portfolio_item_link_transferring</a></td><td rowspan="1">1536937800967</td><td rowspan="1">29379</td></tr><tr class="passedeven"><td><a href="#m13">sub_navigation_interactions</a></td><td rowspan="1">1536937915199</td><td rowspan="1">10047</td></tr><tr class="passedeven"><td><a href="#m14">unfinished_profile_message_appearing</a></td><td rowspan="1">1536937947532</td><td rowspan="1">53974</td></tr><tr class="passedeven"><td><a href="#m15">view_as_visitor_test</a></td><td rowspan="1">1536937652823</td><td rowspan="1">21270</td></tr><tr class="passedeven"><td><a href="#m16">view_portfolio_item</a></td><td rowspan="1">1536937756042</td><td rowspan="1">25271</td></tr><tr class="passedeven"><td><a href="#m17">view_portfolio_item_in_view_as_visitor</a></td><td rowspan="1">1536938001507</td><td rowspan="1">33722</td></tr></tbody>
 </table>
-<h2>mnd_integration_tests</h2><h3 id="m0">integrationTests.ContentCreatorTests#delete_portfolio_avatar_image</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException:
-    no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;react-container&quot;]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[2]&quot;}
-    (Session info: chrome=63.0.3239.108)
-    (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-97-generic
-    x86_64) (WARNING: The server did not provide any stacktrace information)
-    Command duration or timeout: 0 milliseconds
-    For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-    Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-    System info: host: &apos;workstation&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;,
-    os.version: &apos;4.4.0-97-generic&apos;, java.version: &apos;1.8.0_151&apos;
-    Driver info: org.openqa.selenium.chrome.ChromeDriver
-    Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName:
-    chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...},
-    cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled:
-    true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled:
-    false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true,
-    takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version:
-    63.0.3239.108, webStorageEnabled: true}
-    Session ID: e7934e643ec511d7ce2fa038226917b8
-    *** Element info: {Using=xpath, value=//*[@id=&quot;react-container&quot;]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[2]}
-    at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-    at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-    at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-    at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-    at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-    at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-    at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-    at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-    at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-    at com.sun.proxy.$Proxy8.click(Unknown Source)
-    at content_creator_pages.PortfolioPage.click_edit_portfolio_btn(PortfolioPage.java:96)
-    at integrationTests.ContentCreatorTests.delete_portfolio_avatar_image(ContentCreatorTests.java:248)
-    ... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>mnd_integration_tests</h2><h3 id="m0">integrationTests.ContentCreatorTests#apply_job_assignment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">integrationTests.ContentCreatorTests#check_assignments_selector</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">integrationTests.ContentCreatorTests#clear_filters_via_zero_state_message</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">integrationTests.ContentCreatorTests#create_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">integrationTests.ContentCreatorTests#delete_portfolio_avatar_image</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">integrationTests.ContentCreatorTests#delete_portfolio_cover_image</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">integrationTests.ContentCreatorTests#delete_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">integrationTests.ContentCreatorTests#edit_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">integrationTests.ContentCreatorTests#edit_portfolio_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">integrationTests.ContentCreatorTests#log_out_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">integrationTests.ContentCreatorTests#login_as_content_creator_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">integrationTests.ContentCreatorTests#main_navigation_menu_interaction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">integrationTests.ContentCreatorTests#portfolio_item_link_transferring</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">integrationTests.ContentCreatorTests#sub_navigation_interactions</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">integrationTests.ContentCreatorTests#unfinished_profile_message_appearing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">integrationTests.ContentCreatorTests#view_as_visitor_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">integrationTests.ContentCreatorTests#view_portfolio_item</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">integrationTests.ContentCreatorTests#view_portfolio_item_in_view_as_visitor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

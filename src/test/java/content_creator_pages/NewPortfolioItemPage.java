@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NewPortfolioItemPage {
 
@@ -49,7 +52,9 @@ public class NewPortfolioItemPage {
 
     public void upload_portfolio_item_image(String path) throws InterruptedException{
         add_portfolio_image_field.sendKeys(path);
-        Thread.sleep(2000);
+        WebDriverWait wait = new WebDriverWait(driver, 10000);
+        wait.until(ExpectedConditions.visibilityOf(btn_remove_portfolio_item_image));
+
     }
 
     public void click_save_portfolio_item_btn() throws InterruptedException{
@@ -57,7 +62,8 @@ public class NewPortfolioItemPage {
         if(btn_save_portfolio_item.isEnabled()){
             btn_save_portfolio_item.click();
         } else {
-            Thread.sleep(4000);
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.elementToBeClickable(btn_save_portfolio_item));
             btn_save_portfolio_item.click();
         }
     }
@@ -93,7 +99,15 @@ public class NewPortfolioItemPage {
 
     public void click_delete_btn(){ btn_delete_portfolio_item.click(); }
 
-    public void click_delete_confirmation_btn(){ btn_confirm_deleting.click();}
+    public void click_delete_confirmation_btn() throws InterruptedException {
+        if (btn_confirm_deleting.isDisplayed()) {
+            btn_confirm_deleting.click();
+        } else {
+            WebDriverWait wait = new WebDriverWait(driver, 10000);
+            wait.until(ExpectedConditions.elementToBeClickable(btn_confirm_deleting));
+            btn_confirm_deleting.click();
+        }
+    }
 
 
 
